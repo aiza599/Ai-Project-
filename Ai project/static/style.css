@@ -1,0 +1,52 @@
+/* static/style.css */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+.form-select, .btn {
+    border-radius: 12px !important;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    border: none;
+    padding: 15px;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+}
+
+.btn-success:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(17, 153, 142, 0.4);
+}
+
+.result-alert {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+small {
+    font-size: 0.85rem;
+}

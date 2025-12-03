@@ -1,0 +1,23 @@
+Load the pre-trained model using the following code:
+```
+import pickle
+model_svc = pickle.load(open('model_svc.pkl', 'rb'))  # Model Loading
+```
+
+Frontend should have dropdowns for all the features and a button to predict the price.
+the features include:
+```
+Age,Education Level,Job Title,Years of Experience,Salary
+32,0,159,5,90000
+28,1,17,3,65000
+45,2,130,15,150000
+36,0,101,7,60000
+52,1,22,20,200000
+29,0,81,2,55000
+42,1,93,12,120000
+```
+resultant column is "price"
+and dependent columns are all the other columns
+
+
+Create a flask based web application, with an aesthetically pleasing and responsive frontend.
